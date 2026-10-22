@@ -1,5 +1,7 @@
 # SupplyLens / v0.3
 
+[Open live demo →](https://kacperwiklendt.github.io/supplylens)
+
 **Clarity before commitment.** Product specification workspace by Kacper Wiklendt.
 
 Compare two supplier offers, investigate mismatches, estimate order costs and prepare a follow-up. Deterministic specification comparison works offline; AI analysis of free text is a separate, optional server feature.
