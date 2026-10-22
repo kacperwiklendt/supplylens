@@ -1,0 +1,147 @@
+[
+  {
+    "name": "Field jacket · sample approval",
+    "brief": "Product: Field jacket, sample revision B.\nOuter fabric must be 600D polyester.\nAll front zippers must be YKK.\nSize range must include XS to 3XL.\nPre-production samples must arrive by 15 November 2026.\nCare labels must be provided in Polish and English.",
+    "reply": "Hi Kacper,\nWe can offer 600D polyester for the outer shell.\nWe will use SBS front zippers to keep the target price.\nOur size range is XS to 3XL.\nSamples will be dispatched on 15 November 2026; transit normally takes 5–7 days.\nPlease confirm if we can proceed.\nBest regards, Alex",
+    "result": {
+      "findings": [
+        {
+          "topic": "Outer fabric",
+          "status": "aligned",
+          "requirement_quote": "Outer fabric must be 600D polyester.",
+          "supplier_quote": "We can offer 600D polyester for the outer shell.",
+          "explanation": "The supplier's stated fabric matches the brief. Physical material has not been verified.",
+          "question": ""
+        },
+        {
+          "topic": "Front zippers",
+          "status": "conflict",
+          "requirement_quote": "All front zippers must be YKK.",
+          "supplier_quote": "We will use SBS front zippers to keep the target price.",
+          "explanation": "SBS is proposed instead of the required YKK brand.",
+          "question": "Can you confirm YKK front zippers and any resulting price change?"
+        },
+        {
+          "topic": "Size range",
+          "status": "aligned",
+          "requirement_quote": "Size range must include XS to 3XL.",
+          "supplier_quote": "Our size range is XS to 3XL.",
+          "explanation": "The stated size range matches the requirement.",
+          "question": ""
+        },
+        {
+          "topic": "Sample arrival",
+          "status": "conflict",
+          "requirement_quote": "Pre-production samples must arrive by 15 November 2026.",
+          "supplier_quote": "Samples will be dispatched on 15 November 2026; transit normally takes 5–7 days.",
+          "explanation": "Dispatch on the arrival deadline plus transit time does not meet the requested arrival date.",
+          "question": "Can you bring dispatch forward so samples arrive by 15 November 2026?"
+        },
+        {
+          "topic": "Care label languages",
+          "status": "missing",
+          "requirement_quote": "Care labels must be provided in Polish and English.",
+          "supplier_quote": "",
+          "explanation": "The reply does not address care label languages.",
+          "question": "Please confirm that care labels will be provided in both Polish and English."
+        }
+      ]
+    },
+    "id": "field",
+    "short_name": "Field jacket"
+  },
+  {
+    "id": "aligned",
+    "name": "Field jacket · confirmed revision",
+    "short_name": "Field jacket revision C",
+    "brief": "Product: Field jacket, sample revision B.\nOuter fabric must be 600D polyester.\nAll front zippers must be YKK.\nSize range must include XS to 3XL.\nPre-production samples must arrive by 15 November 2026.\nCare labels must be provided in Polish and English.",
+    "reply": "Hi Kacper,\nConfirmed: the outer shell will be 600D polyester, with YKK front zippers.\nSizes will run from XS to 3XL.\nWe can dispatch on 5 November 2026 and commit to arrival no later than 12 November 2026.\nCare labels will include both Polish and English.\nBest regards, Alex",
+    "result": {
+      "findings": [
+        {
+          "topic": "Outer fabric",
+          "status": "aligned",
+          "requirement_quote": "Outer fabric must be 600D polyester.",
+          "supplier_quote": "Confirmed: the outer shell will be 600D polyester, with YKK front zippers.",
+          "explanation": "The supplier explicitly confirms the requested outer fabric.",
+          "question": ""
+        },
+        {
+          "topic": "Front zippers",
+          "status": "aligned",
+          "requirement_quote": "All front zippers must be YKK.",
+          "supplier_quote": "Confirmed: the outer shell will be 600D polyester, with YKK front zippers.",
+          "explanation": "The supplier explicitly confirms YKK front zippers.",
+          "question": ""
+        },
+        {
+          "topic": "Size range",
+          "status": "aligned",
+          "requirement_quote": "Size range must include XS to 3XL.",
+          "supplier_quote": "Sizes will run from XS to 3XL.",
+          "explanation": "The stated size range matches the requested range.",
+          "question": ""
+        },
+        {
+          "topic": "Sample arrival",
+          "status": "aligned",
+          "requirement_quote": "Pre-production samples must arrive by 15 November 2026.",
+          "supplier_quote": "We can dispatch on 5 November 2026 and commit to arrival no later than 12 November 2026.",
+          "explanation": "The committed arrival is earlier than the required deadline. This is a supplier commitment, not a verified shipment.",
+          "question": ""
+        },
+        {
+          "topic": "Care label languages",
+          "status": "aligned",
+          "requirement_quote": "Care labels must be provided in Polish and English.",
+          "supplier_quote": "Care labels will include both Polish and English.",
+          "explanation": "The reply explicitly confirms both label languages.",
+          "question": ""
+        }
+      ]
+    }
+  },
+  {
+    "id": "ambiguous",
+    "name": "Travel pack · ambiguous reply",
+    "short_name": "Travel pack",
+    "brief": "Product: Travel pack, first sample.\nMain fabric must be recycled nylon.\nPacked weight must not exceed 900 g.\nSample delivery must be DDP to Poznan.\nThe first production run must be 300 units.",
+    "reply": "Hi Kacper,\nWe can supply nylon with some recycled content; the exact percentage is still being checked.\nThe sample weighs around 0.9 to 1.1 kg depending on the trim option.\nShipping to Poznan is available. We will confirm the trade terms later.\nOur factory minimum is 500 units for the first run.\nBest, Jamie",
+    "result": {
+      "findings": [
+        {
+          "topic": "Recycled nylon",
+          "status": "unclear",
+          "requirement_quote": "Main fabric must be recycled nylon.",
+          "supplier_quote": "We can supply nylon with some recycled content; the exact percentage is still being checked.",
+          "explanation": "Recycled content is mentioned, but the precise composition is unconfirmed. The brief does not state a minimum percentage either.",
+          "question": "What is the exact recycled nylon percentage in the proposed main fabric?"
+        },
+        {
+          "topic": "Packed weight",
+          "status": "unclear",
+          "requirement_quote": "Packed weight must not exceed 900 g.",
+          "supplier_quote": "The sample weighs around 0.9 to 1.1 kg depending on the trim option.",
+          "explanation": "The range includes both a potentially compliant weight and heavier options. Packed weight and the selected trim are not confirmed.",
+          "question": "Which trim option keeps the final packed weight at or below 900 g, and can you confirm that weight?"
+        },
+        {
+          "topic": "Delivery terms",
+          "status": "unclear",
+          "requirement_quote": "Sample delivery must be DDP to Poznan.",
+          "supplier_quote": "Shipping to Poznan is available. We will confirm the trade terms later.",
+          "explanation": "The destination is addressed, but DDP is not confirmed. A generic shipping offer does not establish the required trade term.",
+          "question": "Please confirm DDP delivery to Poznan for the sample."
+        },
+        {
+          "topic": "First production quantity",
+          "status": "conflict",
+          "requirement_quote": "The first production run must be 300 units.",
+          "supplier_quote": "Our factory minimum is 500 units for the first run.",
+          "explanation": "The stated factory minimum exceeds the required first-run quantity.",
+          "question": "Can you agree to a 300-unit first production run, and on what commercial terms?"
+        }
+      ]
+    }
+  }
+]

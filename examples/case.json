@@ -1,0 +1,14 @@
+{
+  "name": "Field jacket · sample approval",
+  "brief": "Product: Field jacket, sample revision B.\nOuter fabric must be 600D polyester.\nAll front zippers must be YKK.\nSize range must include XS to 3XL.\nPre-production samples must arrive by 15 November 2026.\nCare labels must be provided in Polish and English.",
+  "reply": "Hi Kacper,\nWe can offer 600D polyester for the outer shell.\nWe will use SBS front zippers to keep the target price.\nOur size range is XS to 3XL.\nSamples will be dispatched on 15 November 2026; transit normally takes 5–7 days.\nPlease confirm if we can proceed.\nBest regards, Alex",
+  "result": {
+    "findings": [
+      {"topic":"Outer fabric","status":"aligned","requirement_quote":"Outer fabric must be 600D polyester.","supplier_quote":"We can offer 600D polyester for the outer shell.","explanation":"The supplier's stated fabric matches the brief. Physical material has not been verified.","question":""},
+      {"topic":"Front zippers","status":"conflict","requirement_quote":"All front zippers must be YKK.","supplier_quote":"We will use SBS front zippers to keep the target price.","explanation":"SBS is proposed instead of the required YKK brand.","question":"Can you confirm YKK front zippers and any resulting price change?"},
+      {"topic":"Size range","status":"aligned","requirement_quote":"Size range must include XS to 3XL.","supplier_quote":"Our size range is XS to 3XL.","explanation":"The stated size range matches the requirement.","question":""},
+      {"topic":"Sample arrival","status":"conflict","requirement_quote":"Pre-production samples must arrive by 15 November 2026.","supplier_quote":"Samples will be dispatched on 15 November 2026; transit normally takes 5–7 days.","explanation":"Dispatch on the arrival deadline plus transit time does not meet the requested arrival date.","question":"Can you bring dispatch forward so samples arrive by 15 November 2026?"},
+      {"topic":"Care label languages","status":"missing","requirement_quote":"Care labels must be provided in Polish and English.","supplier_quote":"","explanation":"The reply does not address care label languages.","question":"Please confirm that care labels will be provided in both Polish and English."}
+    ]
+  }
+}
